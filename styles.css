@@ -1,7 +1,13 @@
 body{font-family:Roboto, Helvetica, sans-serif;
 font-size: 48px;
 font-weight: 900;
-display: flex
+display: flex;
+gap: 100px
+}
+
+form{
+  font-size: 32px;
+font-weight: 500;
 }
 
 img{width: 30vw;
@@ -43,3 +49,31 @@ button {
   
 }
 
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+  ;
+}
+.item{
+
+  width: 1200px;
+  
+}
+
+input {
+  border: 2px solid #000;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
